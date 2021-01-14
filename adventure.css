@@ -1,0 +1,155 @@
+/*GENERAL SETTINGS*/
+body {
+	background-color: grey;
+}
+
+#game-container {
+	margin: 0 auto;
+	width: 1000px;
+	height: 600px;
+}
+
+#description {
+	width: 960px;
+	padding: 20px;
+	opacity: 0.7;
+	font-size: 20px;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+	background-color: white;
+	opacity: 0.5;
+}
+
+button {
+	background-color: #DC143C;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+/*V - START - V*/
+.start {
+	background-image: url("img/escape-the-prison.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;
+}
+
+	.start>#description{
+		position: absolute;
+		top: 70px;
+	}
+
+	.start>#game-buttons{
+		position: relative;
+		top: 340px;
+		left: 440px;
+	}
+
+/*V - PRISON CELL - V*/
+.prisonCell {
+	background-image: url("img/prison-cell.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;
+}
+	.prisonCell>#game-buttons{
+		position: relative;
+		top: 340px;
+		left: 290px;
+	}
+
+.prisonCell2 {
+	background-image: url("img/prison-cell.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;
+}
+	.prisonCell2>#game-buttons{
+		position: relative;
+		top: 340px;
+		left: 220px;
+	}
+/*V - KANTINE - V*/
+.kantine {
+	background-image: url("img/kantine.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;	
+}
+
+	.kantine>#game-buttons{
+		position: relative;
+		top: 300px;
+		left: 340px;
+	}
+
+.keepFood {
+	background-image: url("img/bewaker.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;	
+}
+	.keepFood>#game-buttons{
+		position: relative;
+		top: 260px;
+		left: 270px;
+	}
+
+.giveFood {
+	background-image: url("img/kantine.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;	
+}
+	.giveFood>#game-buttons{
+		position: relative;
+		top: 300px;
+		left: 310px;
+	}
+/*V - SHOWERS - V*/
+.showers {
+	background-image: url("img/prison-shower.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;	
+}
+	.showers>#game-buttons{
+		position: relative;
+		top: 300px;
+		left: 340px;
+	}
+
+/*V - KANTOOR - V*/
+.kantoor {
+	background-image: url("img/modern-kantoor.png");
+	background-repeat: no-repeat;
+	background-size: 1000px;	
+}
+	.kantoor>#game-buttons{
+		position: relative;
+		top: 300px;
+		left: 340px;
+	}
+
+/*V - EIND DEUR - V*/
+.eindDeur{
+	background-image: url("img/prison-door.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;	
+}
+	.eindDeur>#game-buttons{
+		position: relative;
+		top: 300px;
+		left: 340px;
+	}
+
+/*V - You Win - V*/
+
+.youWin{
+	background-image: url("img/you-win.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;	
+}
